@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url(./pictures/pexels-santiago-pagnotta-1702624.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 400px;
+    height: 600px;
+    background: #f4f4f4;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 190px;
+}
+
+
+input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 25px;
+    border-radius: 8px;
+}
+
+textarea {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-left: 10px;
+    resize: none;
+}
+
+input[type=submit] {
+    margin-top: 40px;
+    background-color: #E5B449;
+    color: #f0f0f0;
+    height: 30px;
+}
+
+input[type=submit]:hover {
+    color: #000;
+}
+
